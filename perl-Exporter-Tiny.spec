@@ -28,6 +28,9 @@ Requires:	perl(Carp)
 %{?perl_default_filter}
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Exporter::Tiny supports many of Sub::Exporter's external-facing features
 including renaming imported functions with the -as, -prefix and -suffix
 options; explicit destinations with the into option; and alternative
