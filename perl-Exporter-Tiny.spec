@@ -1,6 +1,8 @@
+%define _buildid .2
+
 Name:		perl-Exporter-Tiny
 Version:	0.038
-Release:	1%{?dist}
+Release:	1%{?_buildid}%{?dist}
 Summary:	An exporter with the features of Sub::Exporter but only core dependencies
 License:	GPL+ or Artistic
 Group:		Development/Libraries
