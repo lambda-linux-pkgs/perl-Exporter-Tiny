@@ -74,6 +74,11 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Exporter::Shiny.3pm*
 
 %changelog
+* Mon Dec 22 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 0.038-1
+- Adapt for AL/LL
+- Add package support URL
+- Import source package EPEL7/perl-Exporter-Tiny-0.038-1.el7
+
 * Fri Apr  4 2014 Paul Howarth <paul@city-fan.org> - 0.038-1
 - Update to 0.038
   - Added: Support Exporter.pm's import negation syntax qw( !foo )
